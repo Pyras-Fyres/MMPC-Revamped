@@ -16,23 +16,23 @@
   <!-- RACE LENGTH DISTANCES -->
   <RaceLength>
     
-    <ShortRaceLengthInMiles>52.5</ShortRaceLengthInMiles>
-    <MediumRaceLengthInMiles>105</MediumRaceLengthInMiles>
-    <LongRaceLengthInMiles>157.5</LongRaceLengthInMiles>
+    <ShortRaceLengthInMiles>53</ShortRaceLengthInMiles>
+    <MediumRaceLengthInMiles>106</MediumRaceLengthInMiles>
+    <LongRaceLengthInMiles>159</LongRaceLengthInMiles>
 
     <ShortRaceLengthInMinutes>90</ShortRaceLengthInMinutes>
     <MediumRaceLengthInMinutes>180</MediumRaceLengthInMinutes>
     <LongRaceLengthInMinutes>360</LongRaceLengthInMinutes>
 
     <!-- These modify the number of laps for the circuit depending on the political rules in place -->
-    <ShortRaceLengthShortSessionRulesLapDelta>-7.5</ShortRaceLengthShortSessionRulesLapDelta>
-    <ShortRaceLengthLongSessionRulesLapDelta>7.5</ShortRaceLengthLongSessionRulesLapDelta>
+    <ShortRaceLengthShortSessionRulesLapDelta>-7</ShortRaceLengthShortSessionRulesLapDelta>
+    <ShortRaceLengthLongSessionRulesLapDelta>7</ShortRaceLengthLongSessionRulesLapDelta>
     
     <MediumRaceLengthShortSessionRulesLapDelta>-15</MediumRaceLengthShortSessionRulesLapDelta>
     <MediumRaceLengthLongSessionRulesLapDelta>15</MediumRaceLengthLongSessionRulesLapDelta>
     
-    <LongRaceLengthShortSessionRulesLapDelta>-22.5</LongRaceLengthShortSessionRulesLapDelta>
-    <LongRaceLengthLongSessionRulesLapDelta>22.5</LongRaceLengthLongSessionRulesLapDelta>
+    <LongRaceLengthShortSessionRulesLapDelta>-21</LongRaceLengthShortSessionRulesLapDelta>
+    <LongRaceLengthLongSessionRulesLapDelta>21</LongRaceLengthLongSessionRulesLapDelta>
 
     <!-- How much time will be added or reduced according to the pref settings in Timed Races -->
     <ShortTimeRaceValueMinutes>-30</ShortTimeRaceValueMinutes>
