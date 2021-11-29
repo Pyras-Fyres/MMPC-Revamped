@@ -16,23 +16,23 @@
   <!-- RACE LENGTH DISTANCES -->
   <RaceLength>
     
-    <ShortRaceLengthInMiles>53</ShortRaceLengthInMiles>
-    <MediumRaceLengthInMiles>106</MediumRaceLengthInMiles>
-    <LongRaceLengthInMiles>159</LongRaceLengthInMiles>
+    <ShortRaceLengthInMiles>52.5</ShortRaceLengthInMiles>
+    <MediumRaceLengthInMiles>105</MediumRaceLengthInMiles>
+    <LongRaceLengthInMiles>157.5</LongRaceLengthInMiles>
 
     <ShortRaceLengthInMinutes>90</ShortRaceLengthInMinutes>
     <MediumRaceLengthInMinutes>180</MediumRaceLengthInMinutes>
     <LongRaceLengthInMinutes>360</LongRaceLengthInMinutes>
 
     <!-- These modify the number of laps for the circuit depending on the political rules in place -->
-    <ShortRaceLengthShortSessionRulesLapDelta>-7</ShortRaceLengthShortSessionRulesLapDelta>
-    <ShortRaceLengthLongSessionRulesLapDelta>7</ShortRaceLengthLongSessionRulesLapDelta>
+    <ShortRaceLengthShortSessionRulesLapDelta>-7.5</ShortRaceLengthShortSessionRulesLapDelta>
+    <ShortRaceLengthLongSessionRulesLapDelta>7.5</ShortRaceLengthLongSessionRulesLapDelta>
     
-    <MediumRaceLengthShortSessionRulesLapDelta>-14</MediumRaceLengthShortSessionRulesLapDelta>
-    <MediumRaceLengthLongSessionRulesLapDelta>14</MediumRaceLengthLongSessionRulesLapDelta>
+    <MediumRaceLengthShortSessionRulesLapDelta>-15</MediumRaceLengthShortSessionRulesLapDelta>
+    <MediumRaceLengthLongSessionRulesLapDelta>15</MediumRaceLengthLongSessionRulesLapDelta>
     
-    <LongRaceLengthShortSessionRulesLapDelta>-21</LongRaceLengthShortSessionRulesLapDelta>
-    <LongRaceLengthLongSessionRulesLapDelta>21</LongRaceLengthLongSessionRulesLapDelta>
+    <LongRaceLengthShortSessionRulesLapDelta>-22.5</LongRaceLengthShortSessionRulesLapDelta>
+    <LongRaceLengthLongSessionRulesLapDelta>22.5</LongRaceLengthLongSessionRulesLapDelta>
 
     <!-- How much time will be added or reduced according to the pref settings in Timed Races -->
     <ShortTimeRaceValueMinutes>-30</ShortTimeRaceValueMinutes>
@@ -73,10 +73,10 @@
     
     <!-- These values control the point at which a tyre tread works best on a wet track. 0.0 is a dry track and 1.0 is a totally wet track. -->
     <MinSlickTreadSurfaceWaterRange>0</MinSlickTreadSurfaceWaterRange>
-    <MaxSlickTreadSurfaceWaterRange>0.10</MaxSlickTreadSurfaceWaterRange>
+    <MaxSlickTreadSurfaceWaterRange>0.11</MaxSlickTreadSurfaceWaterRange>
     
     <MinLightTreadSurfaceWaterRange>0.10</MinLightTreadSurfaceWaterRange>
-    <MaxLightTreadSurfaceWaterRange>0.60</MaxLightTreadSurfaceWaterRange>
+    <MaxLightTreadSurfaceWaterRange>0.61</MaxLightTreadSurfaceWaterRange>
     
     <MinHeavyTreadSurfaceWaterRange>0.60</MinHeavyTreadSurfaceWaterRange>
     <MaxHeavyTreadSurfaceWaterRange>1</MaxHeavyTreadSurfaceWaterRange>
@@ -117,8 +117,8 @@
 
       <!-- The time in minutes it takes for this compound to heat up and cool down fully. -->
       <!-- The longer the time the longer the player can ask their driver to attack or save their tyres. -->
-      <TemperatureIncreaseTimeInMinutes>5.5</TemperatureIncreaseTimeInMinutes>
-      <TemperatureDecreaseTimeInMinutes>6.5</TemperatureDecreaseTimeInMinutes>
+      <TemperatureIncreaseTimeInMinutes>6</TemperatureIncreaseTimeInMinutes>
+      <TemperatureDecreaseTimeInMinutes>7</TemperatureDecreaseTimeInMinutes>
 
       <!-- Weather air temperature impact on tyre heating and cooling -->
       <!-- Air temperature in degrees to start gaining tyre temperature -->
@@ -144,8 +144,8 @@
 
       <WrongTreadForWaterLevelTimeCost>30</WrongTreadForWaterLevelTimeCost>
 
-      <TemperatureIncreaseTimeInMinutes>6</TemperatureIncreaseTimeInMinutes>
-      <TemperatureDecreaseTimeInMinutes>7</TemperatureDecreaseTimeInMinutes>
+      <TemperatureIncreaseTimeInMinutes>6.5</TemperatureIncreaseTimeInMinutes>
+      <TemperatureDecreaseTimeInMinutes>7.5</TemperatureDecreaseTimeInMinutes>
 
       <WeatherTemperatureGainStart>20</WeatherTemperatureGainStart>
       <WeatherTemperatureLossStart>17</WeatherTemperatureLossStart>
@@ -162,7 +162,7 @@
 
       <WrongTreadForWaterLevelTimeCost>30</WrongTreadForWaterLevelTimeCost>
 
-      <TemperatureIncreaseTimeInMinutes>6.5</TemperatureIncreaseTimeInMinutes>
+      <TemperatureIncreaseTimeInMinutes>7</TemperatureIncreaseTimeInMinutes>
       <TemperatureDecreaseTimeInMinutes>8</TemperatureDecreaseTimeInMinutes>
 
       <WeatherTemperatureGainStart>22</WeatherTemperatureGainStart>
@@ -180,8 +180,8 @@
 
       <WrongTreadForWaterLevelTimeCost>30</WrongTreadForWaterLevelTimeCost>
 
-      <TemperatureIncreaseTimeInMinutes>7</TemperatureIncreaseTimeInMinutes>
-      <TemperatureDecreaseTimeInMinutes>9</TemperatureDecreaseTimeInMinutes>
+      <TemperatureIncreaseTimeInMinutes>7.5</TemperatureIncreaseTimeInMinutes>
+      <TemperatureDecreaseTimeInMinutes>8.5</TemperatureDecreaseTimeInMinutes>
 
       <WeatherTemperatureGainStart>24</WeatherTemperatureGainStart>
       <WeatherTemperatureLossStart>21</WeatherTemperatureLossStart>
@@ -199,10 +199,10 @@
       <WrongTreadForWaterLevelTimeCost>30</WrongTreadForWaterLevelTimeCost>
 
       <TemperatureIncreaseTimeInMinutes>8</TemperatureIncreaseTimeInMinutes>
-      <TemperatureDecreaseTimeInMinutes>10</TemperatureDecreaseTimeInMinutes>
+      <TemperatureDecreaseTimeInMinutes>9</TemperatureDecreaseTimeInMinutes>
 
-      <WeatherTemperatureGainStart>27</WeatherTemperatureGainStart>
-      <WeatherTemperatureLossStart>24</WeatherTemperatureLossStart>
+      <WeatherTemperatureGainStart>26</WeatherTemperatureGainStart>
+      <WeatherTemperatureLossStart>23</WeatherTemperatureLossStart>
       <WeatherMinTempDeltaPerMinute>0.005</WeatherMinTempDeltaPerMinute>
       <WeatherUnitChangePerDegreePerMinute>0.0075</WeatherUnitChangePerDegreePerMinute>
       
@@ -293,7 +293,7 @@
 		    <LowFuelBurnRateBonus>0.9</LowFuelBurnRateBonus>
         <HighFuelBurnRateBonus>1.1</HighFuelBurnRateBonus>
         <SessionBonusTotalTimeCost>1</SessionBonusTotalTimeCost>
-        <SessionBonusTimeCostReduction>0.25</SessionBonusTimeCostReduction>
+        <SessionBonusTimeCostReduction>0.2</SessionBonusTimeCostReduction>
         <MechanicBonusTyreWearRate>0.8</MechanicBonusTyreWearRate>
 		
 		</Bonuses>
@@ -367,7 +367,7 @@
 
         <!-- The time cost per lap of not being on top form -->
         <MaxDriverFormTimeCost>0.75</MaxDriverFormTimeCost>
-        <TotalUpdateChunks>8</TotalUpdateChunks>
+        <TotalUpdateChunks>10</TotalUpdateChunks>
         <TotalUpdateChunksQualifying>4</TotalUpdateChunksQualifying>
         <ConsistencyMaxFormLoss>0.3</ConsistencyMaxFormLoss>
         <ConsistencyMinFormLoss>0.1</ConsistencyMinFormLoss>
@@ -430,7 +430,7 @@
         <MaxEngineModeTimeCost>2.0</MaxEngineModeTimeCost>
 
         <OutOfFuelTimeCost>60</OutOfFuelTimeCost>
-        <TimeCostPerLapOfFuel>0.25</TimeCostPerLapOfFuel>
+        <TimeCostPerLapOfFuel>0.3</TimeCostPerLapOfFuel>
 
         <!-- Performance: 0.0 = Low performance and maximum time cost -->
         <!-- Performance: 1.0 = High performance and no time cost -->
@@ -836,7 +836,7 @@
 		    <LowFuelBurnRateBonus>0.9</LowFuelBurnRateBonus>
         <HighFuelBurnRateBonus>1.1</HighFuelBurnRateBonus>
         <SessionBonusTotalTimeCost>1</SessionBonusTotalTimeCost>
-        <SessionBonusTimeCostReduction>0.25</SessionBonusTimeCostReduction>
+        <SessionBonusTimeCostReduction>0.2</SessionBonusTimeCostReduction>
         <MechanicBonusTyreWearRate>0.8</MechanicBonusTyreWearRate>
 		
 		</Bonuses>
@@ -1379,7 +1379,7 @@
 		    <LowFuelBurnRateBonus>0.9</LowFuelBurnRateBonus>
         <HighFuelBurnRateBonus>1.1</HighFuelBurnRateBonus>
         <SessionBonusTotalTimeCost>1</SessionBonusTotalTimeCost>
-        <SessionBonusTimeCostReduction>0.25</SessionBonusTimeCostReduction>
+        <SessionBonusTimeCostReduction>0.2</SessionBonusTimeCostReduction>
         <MechanicBonusTyreWearRate>0.8</MechanicBonusTyreWearRate>
 		
 		</Bonuses>
@@ -1453,7 +1453,7 @@
 
         <!-- The time cost per lap of not being on top form -->
         <MaxDriverFormTimeCost>0.75</MaxDriverFormTimeCost>
-        <TotalUpdateChunks>12</TotalUpdateChunks>
+        <TotalUpdateChunks>10</TotalUpdateChunks>
         <TotalUpdateChunksQualifying>4</TotalUpdateChunksQualifying>
         <ConsistencyMaxFormLoss>0.3</ConsistencyMaxFormLoss>
         <ConsistencyMinFormLoss>0.1</ConsistencyMinFormLoss>
@@ -1516,7 +1516,7 @@
         <MaxEngineModeTimeCost>2.0</MaxEngineModeTimeCost>
 
         <OutOfFuelTimeCost>60</OutOfFuelTimeCost>
-        <TimeCostPerLapOfFuel>0.25</TimeCostPerLapOfFuel>
+        <TimeCostPerLapOfFuel>0.1</TimeCostPerLapOfFuel>
 
         <!-- Performance: 0.0 = Low performance and maximum time cost -->
         <!-- Performance: 1.0 = High performance and no time cost -->
